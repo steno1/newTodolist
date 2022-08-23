@@ -1,0 +1,328 @@
+body {
+  background-color: #1F4690;
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bolder;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  font-size: 1.2rem;
+
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+h2{
+  padding: 8px;
+}
+
+#wrap {
+  word-wrap: break-word;
+}
+
+.box {
+  width: 400px;
+  margin: 50px auto;
+  background: black;
+  word-wrap: break-word;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: black;
+  text-align: center;
+  
+}
+
+.item {
+  min-height: 70px;
+  word-wrap: break-word;
+  align-items: center;
+  border-bottom: 2px solid #1F4690;;
+  
+}
+
+.item:last-child {
+  border-bottom: 1;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #1F4690;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+#input1 {
+  margin: 20px auto 20px auto;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+}
+
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #1F4690;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  color: #1F4690;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: white;
+  font-size: 25px;
+  font-weight: 200;
+  width: 313px;
+  border-radius: 10px;
+
+}
+
+input[type="text"]:focus {
+  outline: none;
+  word-wrap: break-word;
+
+
+}
+
+::placeholder {
+  color: #1F4690;
+  opacity: 1;
+
+
+
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* about page */
+#bio {
+  background-color: black;
+  text-align: center;
+  width: 400px;
+  margin: 50px auto;
+  background: black;
+  word-wrap: break-word;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#paragragh {
+  margin: 10px;
+
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 400px;
+  margin: 50px auto;
+  background: black;
+  word-wrap: break-word;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#interest {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 400px;
+  margin: 50px auto;
+
+  word-wrap: break-word;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+#interest2 {
+  line-height: 2;
+}
+
+#contact {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 400px;
+  margin: 50px auto;
+
+  word-wrap: break-word;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+
+}
+#contact1 {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  background-color:transparent;
+  text-align: center;
+  width: 400px;
+  margin: 50px auto;
+  opacity: 0.8;
+
+  word-wrap: break-word;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+@media(max-width:500px) {
+  body {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #0F3D3E 50%, #1F4690 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+  }
+
+  .dropdown-item {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  input[type="text"] {
+    text-align: center;
+    color: #1F4690;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: white;
+    font-size: 25px;
+    font-weight: 200;
+    width: 60%;
+    border-radius: 10px;
+  }
+
+  .box {
+    max-width: 90%;
+    margin: 50px auto;
+    background: black;
+    color: #fff;
+    word-wrap: break-word;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  input[type="text"] {
+    text-align: center;
+    color: #1F4690;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: white;
+    font-size: 15px;
+    font-weight: 200;
+    width: 313px;
+    border-radius: 10px;
+    word-wrap: break-word;
+  }
+
+  #input1 {
+    max-width: 65%;
+    margin: 10px auto 10px auto;
+    font-size: large;
+
+  }
+
+
+  #bio {
+
+    width: 90%;
+    margin: 10px auto;
+
+  }
+
+  #contact {
+
+    width: 90%;
+    margin: 10px auto;
+
+  }
+  #contact1 {
+
+  margin: 5px auto 5px auto;
+  word-wrap: break-word;
+  max-width: 50%;
+
+  }
+
+  #interest {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  #interest2 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  #paragragh {
+    width: 90%;
+    margin: 10px auto;
+
+  }
+  .email1{
+    font-size: 90%;
+    }
+}
