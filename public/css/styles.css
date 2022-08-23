@@ -255,7 +255,7 @@ footer {
   }
 
   .box {
-    max-width: 90%;
+    max-width: 100%;
     margin: 50px auto;
     background: black;
     color: #fff;
@@ -283,6 +283,9 @@ footer {
     margin: 10px auto 10px auto;
     font-size: large;
 
+  }
+  .item{
+    width: 95%;
   }
 
 
