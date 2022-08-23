@@ -228,7 +228,7 @@ footer {
 
 
 
-@media(max-width:500px) {
+@media(max-width:900px) {
   body {
     background-color: #E4E9FD;
     background-image: -webkit-linear-gradient(65deg, #0F3D3E 50%, #1F4690 50%);
